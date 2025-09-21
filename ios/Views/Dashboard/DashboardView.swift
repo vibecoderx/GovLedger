@@ -12,6 +12,9 @@ struct DashboardView: View {
     @State private var showSettings = false
     @State private var selectedAgencyResult: AgencySpendingResult?
     
+    // State to control the presentation of the "About" sheet
+    @State private var isAboutSheetPresented = false
+    
     // MARK: - Body
     var body: some View {
         NavigationView {
@@ -30,12 +33,22 @@ struct DashboardView: View {
             }
             .navigationTitle("Dashboard")
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        isAboutSheetPresented = true
+                    }) {
+                        Image(systemName: "info.circle")
+                    }
+                }
                 ToolbarItem(placement: .principal) { FiscalYearSelectorView() }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button { showSettings = true } label: { Image(systemName: "gearshape.fill") }
                 }
             }
             .sheet(isPresented: $showSettings) { SettingsView() }
+            .sheet(isPresented: $isAboutSheetPresented) {
+                AboutView()
+            }
             .onChange(of: selectedAgencyResult) { _, newResult in
                 if let result = newResult {
                     navigation.navigateToAgency(result)
