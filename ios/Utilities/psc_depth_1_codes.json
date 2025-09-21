@@ -1,0 +1,490 @@
+[
+  {
+    "id": "10",
+    "description": "WEAPONS"
+  },
+  {
+    "id": "11",
+    "description": "NUCLEAR ORDNANCE"
+  },
+  {
+    "id": "12",
+    "description": "FIRE CONTROL EQPT."
+  },
+  {
+    "id": "13",
+    "description": "AMMUNITION AND EXPLOSIVES"
+  },
+  {
+    "id": "14",
+    "description": "GUIDED MISSLES"
+  },
+  {
+    "id": "15",
+    "description": "AEROSPACE CRAFT AND STRUCTURAL COMPONENTS"
+  },
+  {
+    "id": "16",
+    "description": "AEROSPACE CRAFT COMPONENTS AND ACCESSORIES"
+  },
+  {
+    "id": "17",
+    "description": "AEROSPACE CRAFT LAUNCHING, LANDING, GROUND HANDLING AND SERVICING EQUIPMENT"
+  },
+  {
+    "id": "18",
+    "description": "SPACE VEHICLES"
+  },
+  {
+    "id": "19",
+    "description": "SHIPS, SMALL CRAFT, PONTOON, DOCKS"
+  },
+  {
+    "id": "20",
+    "description": "SHIP AND MARINE EQUIPMENT"
+  },
+  {
+    "id": "22",
+    "description": "RAILWAY EQUIPMENT"
+  },
+  {
+    "id": "23",
+    "description": "MOTOR VEHICLES, CYCLES, TRAILERS"
+  },
+  {
+    "id": "24",
+    "description": "TRACTORS"
+  },
+  {
+    "id": "25",
+    "description": "VEHICULAR EQUIPMENT COMPONENTS"
+  },
+  {
+    "id": "26",
+    "description": "TIRES AND TUBES"
+  },
+  {
+    "id": "28",
+    "description": "ENGINES AND TURBINES AND COMPONENT"
+  },
+  {
+    "id": "29",
+    "description": "ENGINE ACCESSORIES"
+  },
+  {
+    "id": "30",
+    "description": "MECHANICAL POWER TRANSMISSION EQPT"
+  },
+  {
+    "id": "31",
+    "description": "BEARINGS"
+  },
+  {
+    "id": "32",
+    "description": "WOODWORKING MACHINERY AND EQPT"
+  },
+  {
+    "id": "34",
+    "description": "METALWORKING MACHINERY"
+  },
+  {
+    "id": "35",
+    "description": "SERVICE AND TRADE EQPT"
+  },
+  {
+    "id": "36",
+    "description": "SPECIAL INDUSTRY MACHINERY"
+  },
+  {
+    "id": "37",
+    "description": "AGRICULTURAL MACHINERY AND EQPT"
+  },
+  {
+    "id": "38",
+    "description": "CONSTRUCT/MINE/EXCAVATE/HIGHWY EQPT"
+  },
+  {
+    "id": "39",
+    "description": "MATERIALS HANDLING EQPT"
+  },
+  {
+    "id": "40",
+    "description": "ROPE, CABLE, CHAIN, FITTINGS"
+  },
+  {
+    "id": "41",
+    "description": "REFRIG, AIR CONDIT/CIRCULAT EQPT"
+  },
+  {
+    "id": "42",
+    "description": "FIRE/RESCUE/SAFETY; ENVIRO PROTECT"
+  },
+  {
+    "id": "43",
+    "description": "PUMPS AND COMPRESSORS"
+  },
+  {
+    "id": "44",
+    "description": "FURNACE/STEAM/DRYING; NUCL REACTOR"
+  },
+  {
+    "id": "45",
+    "description": "PLUMBING, HEATING, WASTE DISPOSAL"
+  },
+  {
+    "id": "46",
+    "description": "WATER PURIFICATION/SEWAGE TREATMENT"
+  },
+  {
+    "id": "47",
+    "description": "PIPE, TUBING, HOSE, AND FITTINGS"
+  },
+  {
+    "id": "48",
+    "description": "VALVES"
+  },
+  {
+    "id": "49",
+    "description": "MAINT/REPAIR SHOP EQPT"
+  },
+  {
+    "id": "51",
+    "description": "HAND TOOLS"
+  },
+  {
+    "id": "52",
+    "description": "MEASURING TOOLS"
+  },
+  {
+    "id": "53",
+    "description": "HARDWARE AND ABRASIVES"
+  },
+  {
+    "id": "54",
+    "description": "PREFAB STRUCTURES/SCAFFOLDING"
+  },
+  {
+    "id": "55",
+    "description": "LUMBER, MILLWORK, PLYWOOD, VENEER"
+  },
+  {
+    "id": "56",
+    "description": "CONSTRUCTION AND BUILDING MATERIAL"
+  },
+  {
+    "id": "58",
+    "description": "COMM/DETECT/COHERENT RADIATION"
+  },
+  {
+    "id": "59",
+    "description": "ELECTRICAL/ELECTRONIC EQPT COMPNTS"
+  },
+  {
+    "id": "60",
+    "description": "FIBER OPTIC"
+  },
+  {
+    "id": "61",
+    "description": "ELECTRIC WIRE, POWER DISTRIB EQPT"
+  },
+  {
+    "id": "62",
+    "description": "LIGHTING FIXTURES, LAMPS"
+  },
+  {
+    "id": "63",
+    "description": "ALARM, SIGNAL, SECURITY DETECTION"
+  },
+  {
+    "id": "65",
+    "description": "MEDICAL/DENTAL/VETERINARY EQPT/SUPP"
+  },
+  {
+    "id": "66",
+    "description": "INSTRUMENTS AND LABORATORY EQPT"
+  },
+  {
+    "id": "67",
+    "description": "PHOTOGRAPHIC EQPT"
+  },
+  {
+    "id": "68",
+    "description": "CHEMICALS AND CHEMICAL PRODUCTS"
+  },
+  {
+    "id": "69",
+    "description": "TRAINING AIDS AND DEVICES"
+  },
+  {
+    "id": "70",
+    "description": "INFORMATION TECHNOLOGY EQUIPMENT (INCLD FIRMWARE) SOFTWARE,SUPPLIES& SUPPORT EQUIPMENT"
+  },
+  {
+    "id": "71",
+    "description": "FURNITURE"
+  },
+  {
+    "id": "72",
+    "description": "HOUSEHOLD/COMMERC FURNISH/APPLIANCE"
+  },
+  {
+    "id": "73",
+    "description": "FOOD PREPARATION/SERVING EQPT"
+  },
+  {
+    "id": "74",
+    "description": "OFFICE MACH/TEXT PROCESS/VISIB REC"
+  },
+  {
+    "id": "75",
+    "description": "OFFICE SUPPLIES AND DEVICES"
+  },
+  {
+    "id": "76",
+    "description": "BOOKS, MAPS, OTHER PUBLICATIONS"
+  },
+  {
+    "id": "77",
+    "description": "MUSICAL INST/PHONOGRAPH/HOME RADIO"
+  },
+  {
+    "id": "78",
+    "description": "RECREATIONAL/ATHLETIC EQPT"
+  },
+  {
+    "id": "79",
+    "description": "CLEANING EQPT AND SUPPLIES"
+  },
+  {
+    "id": "80",
+    "description": "BRUSHES, PAINTS, SEALERS, ADHESIVES"
+  },
+  {
+    "id": "81",
+    "description": "CONTAINERS/PACKAGING/PACKING SUPPL"
+  },
+  {
+    "id": "83",
+    "description": "TEXTILE/LEATHER/FUR; TENT; FLAG"
+  },
+  {
+    "id": "84",
+    "description": "CLOTHING, INDIVIDUAL EQUIPMENT, INSIGNA, AND JEWELRY"
+  },
+  {
+    "id": "85",
+    "description": "TOILETRIES"
+  },
+  {
+    "id": "87",
+    "description": "AGRICULTURAL SUPPLIES"
+  },
+  {
+    "id": "88",
+    "description": "LIVE ANIMALS"
+  },
+  {
+    "id": "89",
+    "description": "SUBSISTENCE"
+  },
+  {
+    "id": "91",
+    "description": "FUELS, LUBRICANTS, OILS, WAXES"
+  },
+  {
+    "id": "93",
+    "description": "NONMETALLIC FABRICATED MATERIALS"
+  },
+  {
+    "id": "94",
+    "description": "NONMETALLIC CRUDE MATERIALS"
+  },
+  {
+    "id": "95",
+    "description": "METAL BARS, SHEETS, SHAPES"
+  },
+  {
+    "id": "96",
+    "description": "ORES, MINERALS AND PRIMARY PRODUCTS"
+  },
+  {
+    "id": "99",
+    "description": "MISCELLANEOUS"
+  },
+  {
+    "id": "AA",
+    "description": "AGRICULTURE R&D SERVICES"
+  },
+  {
+    "id": "AB",
+    "description": "Community and Regional Development R&D Services"
+  },
+  {
+    "id": "AC",
+    "description": "C – National Defense R&D Services"
+  },
+  {
+    "id": "AD",
+    "description": "DEFENSE (OTHER) R&D"
+  },
+  {
+    "id": "AE",
+    "description": "ECONOMIC GROWTH/PRODUCTIVITY R&D"
+  },
+  {
+    "id": "AF",
+    "description": "Education, Training, Employment, and Social Services R&D Services"
+  },
+  {
+    "id": "AG",
+    "description": "Energy R&D Services"
+  },
+  {
+    "id": "AH",
+    "description": "Natural Resources and Environment R&D Services"
+  },
+  {
+    "id": "AJ",
+    "description": "General Science and Technology R&D Services"
+  },
+  {
+    "id": "AK",
+    "description": "Commerce and Housing Credit R&D Services"
+  },
+  {
+    "id": "AL",
+    "description": "Income Security R&D Services"
+  },
+  {
+    "id": "AM",
+    "description": "International Affairs R&D Services"
+  },
+  {
+    "id": "AN",
+    "description": "N – Health R&D Services"
+  },
+  {
+    "id": "AP",
+    "description": "NATURAL RESOURCES R&D"
+  },
+  {
+    "id": "AQ",
+    "description": "SOCIAL SERVICES R&D"
+  },
+  {
+    "id": "AR",
+    "description": "Space R&D Services"
+  },
+  {
+    "id": "AS",
+    "description": "Transportation R&D Services"
+  },
+  {
+    "id": "AT",
+    "description": "TRANSPORTATION (OTHER) R&D"
+  },
+  {
+    "id": "AU",
+    "description": "TRANSPORTATION (OBSOLETE GROUP)"
+  },
+  {
+    "id": "AV",
+    "description": "MINING R&D"
+  },
+  {
+    "id": "AZ",
+    "description": "OTHER RESEARCH/DEVELOPMENT"
+  },
+  {
+    "id": "B",
+    "description": "SPECIAL STUDIES/ANALYSIS, NOT R&D"
+  },
+  {
+    "id": "C",
+    "description": "ARCHITECT/ENGINEER SERVICES"
+  },
+  {
+    "id": "D",
+    "description": "IT AND TELECOM - INFORMATION TECHNOLOGY AND TELECOMMUNICATIONS"
+  },
+  {
+    "id": "E",
+    "description": "PURCHASE OF STRUCTURES/FACILITIES"
+  },
+  {
+    "id": "F",
+    "description": "NATURAL RESOURCES MANAGEMENT"
+  },
+  {
+    "id": "G",
+    "description": "SOCIAL SERVICES"
+  },
+  {
+    "id": "H",
+    "description": "QUALITY CONTROL, TEST, INSPECTION"
+  },
+  {
+    "id": "J",
+    "description": "MAINT, REPAIR, REBUILD EQUIPMENT"
+  },
+  {
+    "id": "K",
+    "description": "MODIFICATION OF EQUIPMENT"
+  },
+  {
+    "id": "L",
+    "description": "TECHNICAL REPRESENTATIVE SVCS."
+  },
+  {
+    "id": "M",
+    "description": "OPERATION OF GOVT OWNED FACILITY"
+  },
+  {
+    "id": "N",
+    "description": "INSTALLATION OF EQUIPMENT"
+  },
+  {
+    "id": "P",
+    "description": "SALVAGE SERVICES"
+  },
+  {
+    "id": "Q",
+    "description": "MEDICAL SERVICES"
+  },
+  {
+    "id": "R",
+    "description": "SUPPORT SVCS (PROF, ADMIN, MGMT)"
+  },
+  {
+    "id": "S",
+    "description": "UTILITIES AND HOUSEKEEPING"
+  },
+  {
+    "id": "T",
+    "description": "PHOTO, MAP, PRINT, PUBLICATION"
+  },
+  {
+    "id": "U",
+    "description": "EDUCATION AND TRAINING"
+  },
+  {
+    "id": "V",
+    "description": "TRANSPORT, TRAVEL, RELOCATION"
+  },
+  {
+    "id": "W",
+    "description": "LEASE/RENT EQUIPMENT"
+  },
+  {
+    "id": "X",
+    "description": "LEASE/RENT FACILITIES"
+  },
+  {
+    "id": "Y",
+    "description": "CONSTRUCT OF STRUCTURES/FACILITIES"
+  },
+  {
+    "id": "Z",
+    "description": "MAINT, REPAIR, ALTER REAL PROPERTY"
+  }
+]

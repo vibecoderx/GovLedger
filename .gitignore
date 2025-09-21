@@ -1,0 +1,36 @@
+# UserInterfaceState.xcuserstate
+
+# Ignore the secrets configuration file
+Secrets.xcconfig
+
+# Standard Swift ignores
+.build/
+Packages/
+*.xcodeproj
+xcuserdata/
+
+# Xcode project files
+*.xcworkspace
+project.xcworkspace
+xcuserdata/
+*.xccheckout
+
+# Build folder
+build/
+DerivedData/
+
+# Other Xcode files
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# etc
+.DS_Store
+*.swp
+
+
