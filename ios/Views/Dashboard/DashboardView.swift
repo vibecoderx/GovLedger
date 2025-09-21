@@ -309,28 +309,62 @@ struct DashboardView: View {
     }
     
     private var yourSliceCard: some View {
-        VStack(alignment: .leading, spacing: 24) {
+        VStack(alignment: .leading, spacing: 16) {
             Text("Your Slice of the Pie")
-                .font(.title2)
-                .bold()
+                .font(.title2).bold()
 
             VStack {
-                ZStack {
-                    Circle()
-                        .stroke(Color.green.opacity(0.3), lineWidth: 25)
-                    Circle()
-                        .trim(from: 0, to: 0.005)
-                        .stroke(Color.green, style: StrokeStyle(lineWidth: 25, lineCap: .round))
-                        .rotationEffect(.degrees(-90))
-                    Text(settings.calculateContribution(for: viewModel.totalSpending), format: .currency(code: "USD").precision(.fractionLength(2)))
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .foregroundColor(.primary)
+                if settings.taxContribution > 0 {
+                    ZStack {
+                        Circle()
+                            .stroke(Color.green.opacity(0.3), lineWidth: 25)
+                        Circle()
+                            .trim(from: 0, to: 0.005)
+                            .stroke(Color.green, style: StrokeStyle(lineWidth: 25, lineCap: .round))
+                            .rotationEffect(.degrees(-90))
+                        Text(settings.calculateContribution(for: viewModel.totalSpending), format: .currency(code: "USD").precision(.fractionLength(2)))
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                    }
+                    .frame(width: 180, height: 180)
+                    .padding(.vertical, 10)
+                } else {
+                    VStack(spacing: 12) {
+                        Image(systemName: "percent.circle.fill")
+                            .font(.system(size: 50))
+                            .foregroundColor(.accentColor)
+                            .padding(.bottom, 4)
+                        Text("Personalize This View")
+                            .font(.headline)
+                            .multilineTextAlignment(.center)
+
+                        Text("Enter your annual federal tax in Settings to see your estimated contribution.")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal)
+
+                        Button {
+                            showSettings = true
+                        } label: {
+                            Text("Go to Settings")
+                                .fontWeight(.semibold)
+                                .padding(.vertical, 8)
+                                .padding(.horizontal, 16)
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .clipShape(Capsule())
+                        .padding(.top, 8)
+                    }
+                    .padding(.vertical, 20)
                 }
-                .frame(width: 180, height: 180)
             }
             .frame(maxWidth: .infinity)
         }
+        .padding()
+        .background(Color(.secondarySystemBackground))
+        .cornerRadius(12)
     }
     
     private func findTappedAgency(location: CGPoint, proxy: ChartProxy, geometry: GeometryProxy) -> AgencySpendingResult? {
