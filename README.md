@@ -4,13 +4,9 @@
   <img src="ios/GovSpendr/Assets.xcassets/AppIcon.appiconset/GovSpendr_eagle_cash.png" width="200">
 </p>
 
-> ### **A Note on How This App Was Built**
->
-> A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
-
 ## Ever wonder where your tax dollars go? Now you can find out.
 
-GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official USASpending.gov API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money.
+GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money. **NOTE**: This is not the official app or repo for USASpending.gov, and is in no way associated with USASpending.gov.  This app and the code in this repo simply uses USASpending.gov APIs.
 
 ## Features
 
@@ -65,6 +61,11 @@ To build and run this project, you'll need Xcode 15 or later. Clone the reposito
 ## License
 
 MIT license (see `LICENSE` file at the root of the repo)
+
+
+> ### **A Note on How This App Was Built**
+>
+> A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
 
 ---
 
