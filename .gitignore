@@ -10,6 +10,7 @@ Packages/
 # Xcode project files
 xcuserdata/
 *.xccheckout
+project.xcworkspace
 
 # Build folder
 build/
