@@ -38,11 +38,37 @@ struct SearchView: View {
                 if viewModel.hasPerformedSearch {
                     AwardListView(title: "Search Results", viewState: viewModel.viewState, awards: viewModel.awards)
                 } else {
+                     // Show suggestions when no search has been performed
                      VStack {
-                        Spacer()
-                        Text("Enter a keyword to search for government awards.")
+                        Text("Or try one of these suggestions:")
+                            .font(.headline)
                             .foregroundColor(.secondary)
-                        Spacer()
+                            .padding(.top)
+
+                        ScrollView {
+                            VStack(alignment: .leading, spacing: 12) {
+                                ForEach(viewModel.suggestions) { suggestion in
+                                    Button(action: {
+                                        viewModel.searchText = suggestion.text
+                                        Task {
+                                            await viewModel.searchAwards(year: filters.selectedYear, quarter: filters.selectedQuarter)
+                                        }
+                                    }) {
+                                        HStack {
+                                            Image(systemName: suggestion.icon)
+                                                .frame(width: 25, alignment: .center)
+                                            Text(suggestion.text)
+                                            Spacer()
+                                        }
+                                        .padding()
+                                        .background(Color(.secondarySystemBackground))
+                                        .cornerRadius(10)
+                                        .foregroundColor(.primary)
+                                    }
+                                }
+                            }
+                            .padding()
+                        }
                     }
                 }
             }
