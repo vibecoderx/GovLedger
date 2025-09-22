@@ -20,10 +20,10 @@ class DashboardViewModel: ObservableObject {
     @Published var viewState: LoadingState = .loading
     
     // Color palettes for the charts
-    private let agencyColors: [Color] = [.blue, .red, .orange, .green, .purple, .cyan, .indigo, .mint]
-    private let pscColors: [Color] = [.cyan, .indigo, .purple, .teal, .pink, .orange, .green, .red]
-    private let recipientColors: [Color] = [.green, .mint, .yellow, .pink, .blue, .red, .orange, .purple]
-    private let covidRecipientColors: [Color] = [.pink, .red, .orange, .yellow, .mint, .teal, .blue, .indigo, .purple, .cyan]
+    private let agencyColors: [Color] = [.blue, .red, .orange, .green, .purple, .cyan, .brown, .mint, .gray]
+    private let pscColors: [Color] = [.cyan, .indigo, .purple, .brown, .orange, .green, .red, .yellow, .mint, .gray]
+    private let recipientColors: [Color] = [.green, .mint, .yellow, .brown, .blue, .red, .orange, .purple, .gray]
+    private let covidRecipientColors: [Color] = [.red, .orange, .yellow, .green, .blue, .indigo, .purple, .cyan, .brown, .gray]
 
 
     func fetchDashboardData(for fiscalYear: Int, quarter: Int) async {
@@ -168,4 +168,3 @@ class DashboardViewModel: ObservableObject {
         }
     }
 }
-
