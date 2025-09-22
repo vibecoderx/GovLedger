@@ -6,7 +6,9 @@
 
 ## Ever wonder where your tax dollars go? Now you can find out.
 
-GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money. **NOTE**: This is not the official app or repo for USASpending.gov, and is in no way associated with USASpending.gov.  This app and the code in this repo simply uses USASpending.gov APIs.
+GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money.
+
+**NOTE**: This is not the official app for USASpending.gov.  This app and repo are in no way associated with USASpending.gov.
 
 ## Features
 
@@ -22,6 +24,10 @@ GovSpendr is a sleek, modern iOS application that brings the transparency of U.S
 -   **Powerful Search**: Instantly search for specific awards and contracts using keywords.
 -   **Your Slice of the Pie**: Get a personalized estimate of your contribution to government spending based on your annual tax input.
 
+## Data Source
+
+All data in GovSpendr is sourced directly from the **USASpending.gov API**, the official data source for U.S. government spending. Our `APIService.swift` class handles all network requests to this API, ensuring that the data you see is accurate, up-to-date, and reliable.
+
 ## App Architecture
 
 GovSpendr is built using a modern and robust architecture, following the **Model-View-ViewModel (MVVM)** design pattern. This ensures a clean separation of concerns, making the codebase scalable, maintainable, and easy to understand.
@@ -29,10 +35,6 @@ GovSpendr is built using a modern and robust architecture, following the **Model
 -   **Model**: The data layer of the application. These simple Swift structs are designed to be easily decodable from the JSON responses provided by the USASpending.gov API. You'll find these in the `Models` directory.
 -   **View**: The UI layer of the app, built entirely with **SwiftUI**. The views are designed to be reusable and reactive, providing a seamless user experience. All views are located in the `Views` directory.
 -   **ViewModel**: The bridge between the Model and the View. ViewModels are responsible for fetching data from the API, applying business logic, and preparing it for presentation in the UI. You can find these in the `ViewModels` directory.
-
-## Data Source
-
-All data in GovSpendr is sourced directly from the **USASpending.gov API**, the official data source for U.S. government spending. Our `APIService.swift` class handles all network requests to this API, ensuring that the data you see is accurate, up-to-date, and reliable.
 
 ## Project Structure
 
@@ -70,6 +72,6 @@ We hope you're as excited about bringing transparency to government spending as 
 
 > ### **A Note on How This App Was Built**
 >
-> A significant portion of the code in this repository—for both the iOS app and the Python backend—was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
+> A significant portion of the code in this repository was generated with the assistance of a large language model (LLM). This project was largely **"vibe-coded,"** meaning it was developed through a rapid, iterative, and conversational process with a GenAI tool with minimal review of the generated code. Correctness of the code was checked at certain core places (e.g., using the correct API endpoints, etc). Overall app correctness check was done via manual testing of various UI workflows.
 
 ---
