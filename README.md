@@ -10,6 +10,76 @@ GovSpendr is a sleek, modern iOS application that brings the transparency of U.S
 
 **NOTE**: This is not the official app for USASpending.gov.  This app and repo are in no way associated with USASpending.gov.
 
+
+## Screentshots
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>See government spending at a glance</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/1.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See top spending categories</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/2.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>See top recipients of government funding</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/3.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See top Covid-19 funding recipients</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/4.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>Choose a fiscal year (an optionally one or more fiscal quarters)</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/6.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Drill down into a specific government agency</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/8.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>Or into a specific sub-agency</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/9.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See details of a specific funding award</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/10.png" width="250">
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="50%" align="center">
+      <b>See details of various sub-awards of an award</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/11.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Explore funding by Category, State, Industry, Recipient or Federal Account</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/13.png" width="250">
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="50%" align="center">
+      <b>Explore Covid-19 funding awards by category</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/17.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Searcy by </b><br>
+      <img src=".github/screenshots/iphone11_pro_max/19.png" width="250">
+    </td>
+  </tr>
+
+</table>
+
+
 ## Features
 
 -   **Interactive Dashboard**: Get a stunning, at-a-glance overview of government spending with beautiful charts and visualizations. See top-spending agencies, categories, and recipients for any fiscal year.
