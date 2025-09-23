@@ -72,7 +72,7 @@ GovSpendr is a sleek, modern iOS application that brings the transparency of U.S
       <img src=".github/screenshots/iphone11_pro_max/17.png" width="250">
     </td>
     <td width="50%" align="center">
-      <b>Searcy by </b><br>
+      <b>Search by any keyword!</b><br>
       <img src=".github/screenshots/iphone11_pro_max/19.png" width="250">
     </td>
   </tr>
