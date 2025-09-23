@@ -17,7 +17,8 @@ struct DashboardView: View {
     
     // MARK: - Body
     var body: some View {
-        NavigationView {
+        // FIX: Replaced NavigationView with NavigationStack for consistent iPad layout
+        NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 32) {
                     
@@ -308,18 +309,22 @@ struct DashboardView: View {
         }
     }
     
+    @ViewBuilder
     private var yourSliceCard: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Your Slice of the Pie")
-                .font(.title2).bold()
+                .font(.title2)
+                .bold()
 
-            VStack {
-                if settings.taxContribution > 0 {
+            // Check if the user has entered their tax contribution
+            if settings.taxContribution > 0 {
+                // Show the chart if they have
+                VStack {
                     ZStack {
                         Circle()
                             .stroke(Color.green.opacity(0.3), lineWidth: 25)
                         Circle()
-                            .trim(from: 0, to: 0.005)
+                            .trim(from: 0, to: 0.005) // This is a fixed visual representation
                             .stroke(Color.green, style: StrokeStyle(lineWidth: 25, lineCap: .round))
                             .rotationEffect(.degrees(-90))
                         Text(settings.calculateContribution(for: viewModel.totalSpending), format: .currency(code: "USD").precision(.fractionLength(2)))
@@ -328,39 +333,27 @@ struct DashboardView: View {
                             .foregroundColor(.primary)
                     }
                     .frame(width: 180, height: 180)
-                    .padding(.vertical, 10)
-                } else {
-                    VStack(spacing: 12) {
-                        Image(systemName: "percent.circle.fill")
-                            .font(.system(size: 50))
-                            .foregroundColor(.accentColor)
-                            .padding(.bottom, 4)
-                        Text("Personalize This View")
-                            .font(.headline)
-                            .multilineTextAlignment(.center)
-
-                        Text("Enter your annual federal tax in Settings to see your estimated contribution.")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
-
-                        Button {
-                            showSettings = true
-                        } label: {
-                            Text("Go to Settings")
-                                .fontWeight(.semibold)
-                                .padding(.vertical, 8)
-                                .padding(.horizontal, 16)
-                        }
-                        .buttonStyle(.borderedProminent)
-                        .clipShape(Capsule())
-                        .padding(.top, 8)
-                    }
-                    .padding(.vertical, 20)
                 }
+                .frame(maxWidth: .infinity)
+            } else {
+                // Show a prompt to enter tax info if they haven't
+                VStack(spacing: 16) {
+                    Image(systemName: "gearshape.fill")
+                        .font(.largeTitle)
+                        .foregroundColor(.secondary)
+                    Text("Enter your annual federal tax in Settings to see your estimated contribution.")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal)
+                    Button("Go to Settings") {
+                        showSettings = true
+                    }
+                    .buttonStyle(.borderedProminent)
+                }
+                .frame(maxWidth: .infinity, minHeight: 180)
+                .padding()
             }
-            .frame(maxWidth: .infinity)
         }
         .padding()
         .background(Color(.secondarySystemBackground))
@@ -374,3 +367,4 @@ struct DashboardView: View {
         return viewModel.topAgencies.first { $0.shortName == agencyCode }
     }
 }
+
