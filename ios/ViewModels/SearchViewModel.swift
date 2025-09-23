@@ -21,7 +21,7 @@ class SearchViewModel: ObservableObject {
         SearchSuggestion(text: "Cybersecurity", icon: "lock.shield.fill"),
         SearchSuggestion(text: "National Parks", icon: "tree.fill"),
         SearchSuggestion(text: "Artificial Intelligence", icon: "brain.head.profile.fill"),
-        SearchSuggestion(text: "Tikka Masala", icon: "fork.knife"),
+        SearchSuggestion(text: "Chicken Fajita", icon: "fork.knife"),
         SearchSuggestion(text: "Musical Instruments", icon: "guitars.fill"),
         SearchSuggestion(text: "James Webb Space Telescope", icon: "binoculars.circle.fill")
     ]
