@@ -207,11 +207,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		932053DD2E802C9E00B22447 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovSpendr.app; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app"; sourceTree = "<absolute>"; };
-		932054092E8055C600B22447 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
-		9320540A2E8055C600B22447 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
 		93372B542E7FA5FF0027935B /* AppInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoHelper.swift; sourceTree = "<group>"; };
 		93372B562E7FA71B0027935B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		93A34A472E84A71200DF65D3 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovSpendr.app; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app"; sourceTree = "<absolute>"; };
+		93A34A482E84A71200DF65D3 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
+		93A34A492E84A71200DF65D3 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
 		93CD51732E7F6FA6000B9AC9 /* GovSpendrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrTests.swift; sourceTree = "<group>"; };
 		93CD51752E7F6FA6000B9AC9 /* GovSpendrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrUITests.swift; sourceTree = "<group>"; };
 		93CD51762E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -527,7 +527,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendr;
-			productReference = 932053DD2E802C9E00B22447 /* GovSpendr.app */;
+			productReference = 93A34A472E84A71200DF65D3 /* GovSpendr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		93CD51522E7F6F88000B9AC9 /* GovSpendrTests */ = {
@@ -547,7 +547,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendrTests;
-			productReference = 932054092E8055C600B22447 /* GovSpendrTests.xctest */;
+			productReference = 93A34A482E84A71200DF65D3 /* GovSpendrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		93CD515C2E7F6F88000B9AC9 /* GovSpendrUITests */ = {
@@ -567,7 +567,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendrUITests;
-			productReference = 9320540A2E8055C600B22447 /* GovSpendrUITests.xctest */;
+			productReference = 93A34A492E84A71200DF65D3 /* GovSpendrUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1018,7 +1018,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1047,7 +1047,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

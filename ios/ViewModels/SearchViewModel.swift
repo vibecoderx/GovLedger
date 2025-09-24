@@ -16,7 +16,7 @@ class SearchViewModel: ObservableObject {
     
     // A mix of interesting, standard, and fun search terms to spark curiosity
     let suggestions: [SearchSuggestion] = [
-        SearchSuggestion(text: "F-35 Lightning II", icon: "airplane"),
+        SearchSuggestion(text: "F-35 Lightning", icon: "airplane"),
         SearchSuggestion(text: "Artemis", icon: "moon.stars.fill"),
         SearchSuggestion(text: "Cybersecurity", icon: "lock.shield.fill"),
         SearchSuggestion(text: "National Parks", icon: "tree.fill"),
