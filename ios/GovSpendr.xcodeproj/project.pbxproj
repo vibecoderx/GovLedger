@@ -271,9 +271,9 @@
 		93CD51BE2E7F6FA6000B9AC9 /* RecipientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientDetailView.swift; sourceTree = "<group>"; };
 		93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrApp.swift; sourceTree = "<group>"; };
-		93F3006A2E862FFE00059044 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
-		93F3006B2E862FFE00059044 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
-		93F3006C2E8630D800059044 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovSpendr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F3006C2E8630D800059044 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovSpendr.app; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app"; sourceTree = "<absolute>"; };
+		93F3006D2E874AF100059044 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
+		93F3006E2E874AF100059044 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,7 +312,6 @@
 				93CD519D2E7F6FA6000B9AC9 /* ViewModels */,
 				93CD51BF2E7F6FA6000B9AC9 /* Views */,
 				93CD52802E7F84E1000B9AC9 /* GovSpendr */,
-				93F3006C2E8630D800059044 /* GovSpendr.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -548,7 +547,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendrTests;
-			productReference = 93F3006A2E862FFE00059044 /* GovSpendrTests.xctest */;
+			productReference = 93F3006D2E874AF100059044 /* GovSpendrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		93CD515C2E7F6F88000B9AC9 /* GovSpendrUITests */ = {
@@ -568,7 +567,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendrUITests;
-			productReference = 93F3006B2E862FFE00059044 /* GovSpendrUITests.xctest */;
+			productReference = 93F3006E2E874AF100059044 /* GovSpendrUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */

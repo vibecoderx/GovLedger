@@ -1,10 +1,22 @@
 # GovSpendr: Your Window into U.S. Government Spending
 
 <p align="center">
-  <img src="ios/GovSpendr/Assets.xcassets/AppIcon.appiconset/GovSpendr_eagle_cash.png" width="200">
+  <img src="https://raw.githubusercontent.com/vibecoderx/GovSpendr/main/ios/GovSpendr/Assets.xcassets/AppIcon.appiconset/GovSpendr_eagle_cash.png" width="200">
 </p>
 
-## Ever wonder where your tax dollars go? Now you can find out.
+<p align="center">
+  <strong>From massive agency budgets to surprising individual contracts, this is the one app that puts the entire U.S. federal ledger in your pocket.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-iOS-blue.svg" alt="Platform: iOS">
+  <img src="https://img.shields.io/badge/Swift-5-orange.svg" alt="Swift 5">
+  <img src="https://img.shields.io/badge/SwiftUI-latest-purple.svg" alt="SwiftUI">
+</p>
+
+---
+
+## Ever wonder where your tax dollars go? Now you can find out!
 
 GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money.
 
