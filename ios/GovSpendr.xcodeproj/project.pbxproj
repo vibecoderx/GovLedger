@@ -271,9 +271,9 @@
 		93CD51BE2E7F6FA6000B9AC9 /* RecipientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientDetailView.swift; sourceTree = "<group>"; };
 		93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrApp.swift; sourceTree = "<group>"; };
-		93F300692E862FFE00059044 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovSpendr.app; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app"; sourceTree = "<absolute>"; };
 		93F3006A2E862FFE00059044 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
 		93F3006B2E862FFE00059044 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
+		93F3006C2E8630D800059044 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovSpendr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +312,7 @@
 				93CD519D2E7F6FA6000B9AC9 /* ViewModels */,
 				93CD51BF2E7F6FA6000B9AC9 /* Views */,
 				93CD52802E7F84E1000B9AC9 /* GovSpendr */,
+				93F3006C2E8630D800059044 /* GovSpendr.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -527,7 +528,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovSpendr;
-			productReference = 93F300692E862FFE00059044 /* GovSpendr.app */;
+			productReference = 93F3006C2E8630D800059044 /* GovSpendr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		93CD51522E7F6F88000B9AC9 /* GovSpendrTests */ = {
@@ -1008,6 +1009,7 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GovLedger;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1018,7 +1020,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1037,6 +1039,7 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GovLedger;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1047,7 +1050,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
