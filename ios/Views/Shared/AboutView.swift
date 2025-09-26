@@ -20,7 +20,7 @@ struct AboutView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 18))
                             .shadow(radius: 5)
                         
-                        Text("GovSpender")
+                        Text("GovLedger")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         
