@@ -88,7 +88,7 @@
 		93CD52122E7F6FA6000B9AC9 /* NAICSSpendingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51802E7F6FA6000B9AC9 /* NAICSSpendingResponse.swift */; };
 		93CD52132E7F6FA6000B9AC9 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51782E7F6FA6000B9AC9 /* Agency.swift */; };
 		93CD52142E7F6FA6000B9AC9 /* AgencyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51902E7F6FA6000B9AC9 /* AgencyDetailViewModel.swift */; };
-		93CD52152E7F6FA6000B9AC9 /* GovSpendrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51732E7F6FA6000B9AC9 /* GovSpendrTests.swift */; };
+		93CD52152E7F6FA6000B9AC9 /* GovLedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51732E7F6FA6000B9AC9 /* GovLedgerTests.swift */; };
 		93CD52162E7F6FA6000B9AC9 /* StateSpendingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51872E7F6FA6000B9AC9 /* StateSpendingResponse.swift */; };
 		93CD52172E7F6FA6000B9AC9 /* FederalAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD517E2E7F6FA6000B9AC9 /* FederalAccountResponse.swift */; };
 		93CD52182E7F6FA6000B9AC9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51B42E7F6FA6000B9AC9 /* SearchView.swift */; };
@@ -129,7 +129,7 @@
 		93CD52402E7F6FA6000B9AC9 /* AwardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51922E7F6FA6000B9AC9 /* AwardDetailViewModel.swift */; };
 		93CD52412E7F6FA6000B9AC9 /* PSCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51832E7F6FA6000B9AC9 /* PSCData.swift */; };
 		93CD52422E7F6FA6000B9AC9 /* SubAgencySpendingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51882E7F6FA6000B9AC9 /* SubAgencySpendingResponse.swift */; };
-		93CD52432E7F6FA6000B9AC9 /* GovSpendrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51752E7F6FA6000B9AC9 /* GovSpendrUITests.swift */; };
+		93CD52432E7F6FA6000B9AC9 /* GovLedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51752E7F6FA6000B9AC9 /* GovLedgerUITests.swift */; };
 		93CD52442E7F6FA6000B9AC9 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51962E7F6FA6000B9AC9 /* ExploreViewModel.swift */; };
 		93CD52452E7F6FA6000B9AC9 /* FederalAccountProgramActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51A92E7F6FA6000B9AC9 /* FederalAccountProgramActivitiesView.swift */; };
 		93CD52462E7F6FA6000B9AC9 /* SubawardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51892E7F6FA6000B9AC9 /* SubawardResponse.swift */; };
@@ -166,7 +166,7 @@
 		93CD52672E7F6FA6000B9AC9 /* RecipientAwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51AE2E7F6FA6000B9AC9 /* RecipientAwardsView.swift */; };
 		93CD52692E7F6FA6000B9AC9 /* PSCChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51822E7F6FA6000B9AC9 /* PSCChartData.swift */; };
 		93CD526A2E7F6FA6000B9AC9 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51992E7F6FA6000B9AC9 /* NavigationViewModel.swift */; };
-		93CD526B2E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51762E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift */; };
+		93CD526B2E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51762E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift */; };
 		93CD526C2E7F6FA6000B9AC9 /* RecipientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51BE2E7F6FA6000B9AC9 /* RecipientDetailView.swift */; };
 		93CD526D2E7F6FA6000B9AC9 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51982E7F6FA6000B9AC9 /* FilterViewModel.swift */; };
 		93CD526E2E7F6FA6000B9AC9 /* CovidSpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51A52E7F6FA6000B9AC9 /* CovidSpendingView.swift */; };
@@ -182,10 +182,10 @@
 		93CD52792E7F6FA6000B9AC9 /* CovidSpendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51942E7F6FA6000B9AC9 /* CovidSpendingViewModel.swift */; };
 		93CD527A2E7F6FA6000B9AC9 /* StateRecipientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD51B02E7F6FA6000B9AC9 /* StateRecipientsView.swift */; };
 		93CD52812E7F84E1000B9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */; };
-		93CD52822E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */; };
-		93CD52832E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */; };
+		93CD52822E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */; };
+		93CD52832E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */; };
 		93CD52842E7F84E1000B9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */; };
-		93CD52852E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */; };
+		93CD52852E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */; };
 		93CD52862E7F84E1000B9AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -195,23 +195,26 @@
 			containerPortal = 93CD513E2E7F6F87000B9AC9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 93CD51452E7F6F87000B9AC9;
-			remoteInfo = GovSpendr;
+			remoteInfo = GovLedger;
 		};
 		93CD515E2E7F6F88000B9AC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93CD513E2E7F6F87000B9AC9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 93CD51452E7F6F87000B9AC9;
-			remoteInfo = GovSpendr;
+			remoteInfo = GovLedger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		93372B542E7FA5FF0027935B /* AppInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoHelper.swift; sourceTree = "<group>"; };
 		93372B562E7FA71B0027935B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		93CD51732E7F6FA6000B9AC9 /* GovSpendrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrTests.swift; sourceTree = "<group>"; };
-		93CD51752E7F6FA6000B9AC9 /* GovSpendrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrUITests.swift; sourceTree = "<group>"; };
-		93CD51762E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9343BEE42E89911B00E7687D /* GovLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovLedger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343BEE52E89912200E7687D /* GovLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovLedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343BEE62E89912900E7687D /* GovLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovLedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CD51732E7F6FA6000B9AC9 /* GovLedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerTests.swift; sourceTree = "<group>"; };
+		93CD51752E7F6FA6000B9AC9 /* GovLedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerUITests.swift; sourceTree = "<group>"; };
+		93CD51762E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		93CD51782E7F6FA6000B9AC9 /* Agency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agency.swift; sourceTree = "<group>"; };
 		93CD51792E7F6FA6000B9AC9 /* AgencySpendingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencySpendingResponse.swift; sourceTree = "<group>"; };
 		93CD517A2E7F6FA6000B9AC9 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
@@ -270,10 +273,7 @@
 		93CD51BD2E7F6FA6000B9AC9 /* PSCDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSCDetailView.swift; sourceTree = "<group>"; };
 		93CD51BE2E7F6FA6000B9AC9 /* RecipientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientDetailView.swift; sourceTree = "<group>"; };
 		93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovSpendrApp.swift; sourceTree = "<group>"; };
-		93F3006C2E8630D800059044 /* GovSpendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovSpendr.app; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app"; sourceTree = "<absolute>"; };
-		93F3006D2E874AF100059044 /* GovSpendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrTests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendr.app/PlugIns/GovSpendrTests.xctest"; sourceTree = "<absolute>"; };
-		93F3006E2E874AF100059044 /* GovSpendrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovSpendrUITests.xctest; path = "/Users/asaxena/workspace/apps/GovSpendr/ios/build/Debug-iphoneos/GovSpendrUITests-Runner.app/PlugIns/GovSpendrUITests.xctest"; sourceTree = "<absolute>"; };
+		93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,32 +304,35 @@
 		93CD513D2E7F6F87000B9AC9 = {
 			isa = PBXGroup;
 			children = (
-				93CD51742E7F6FA6000B9AC9 /* GovSpendrTests */,
-				93CD51772E7F6FA6000B9AC9 /* GovSpendrUITests */,
+				93CD51742E7F6FA6000B9AC9 /* GovLedgerTests */,
+				93CD51772E7F6FA6000B9AC9 /* GovLedgerUITests */,
 				93CD518A2E7F6FA6000B9AC9 /* Models */,
 				93CD518D2E7F6FA6000B9AC9 /* Services */,
 				93CD518F2E7F6FA6000B9AC9 /* Utilities */,
 				93CD519D2E7F6FA6000B9AC9 /* ViewModels */,
 				93CD51BF2E7F6FA6000B9AC9 /* Views */,
-				93CD52802E7F84E1000B9AC9 /* GovSpendr */,
+				93CD52802E7F84E1000B9AC9 /* GovLedger */,
+				9343BEE42E89911B00E7687D /* GovLedger.app */,
+				9343BEE52E89912200E7687D /* GovLedgerTests.xctest */,
+				9343BEE62E89912900E7687D /* GovLedgerUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
-		93CD51742E7F6FA6000B9AC9 /* GovSpendrTests */ = {
+		93CD51742E7F6FA6000B9AC9 /* GovLedgerTests */ = {
 			isa = PBXGroup;
 			children = (
-				93CD51732E7F6FA6000B9AC9 /* GovSpendrTests.swift */,
+				93CD51732E7F6FA6000B9AC9 /* GovLedgerTests.swift */,
 			);
-			path = GovSpendrTests;
+			path = GovLedgerTests;
 			sourceTree = "<group>";
 		};
-		93CD51772E7F6FA6000B9AC9 /* GovSpendrUITests */ = {
+		93CD51772E7F6FA6000B9AC9 /* GovLedgerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				93CD51752E7F6FA6000B9AC9 /* GovSpendrUITests.swift */,
-				93CD51762E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift */,
+				93CD51752E7F6FA6000B9AC9 /* GovLedgerUITests.swift */,
+				93CD51762E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift */,
 			);
-			path = GovSpendrUITests;
+			path = GovLedgerUITests;
 			sourceTree = "<group>";
 		};
 		93CD518A2E7F6FA6000B9AC9 /* Models */ = {
@@ -498,21 +501,21 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		93CD52802E7F84E1000B9AC9 /* GovSpendr */ = {
+		93CD52802E7F84E1000B9AC9 /* GovLedger */ = {
 			isa = PBXGroup;
 			children = (
 				93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */,
-				93CD527F2E7F84E1000B9AC9 /* GovSpendrApp.swift */,
+				93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */,
 			);
-			path = GovSpendr;
+			path = GovLedger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93CD51452E7F6F87000B9AC9 /* GovSpendr */ = {
+		93CD51452E7F6F87000B9AC9 /* GovLedger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93CD51672E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendr" */;
+			buildConfigurationList = 93CD51672E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedger" */;
 			buildPhases = (
 				93CD51422E7F6F87000B9AC9 /* Sources */,
 				93CD51432E7F6F87000B9AC9 /* Frameworks */,
@@ -523,16 +526,16 @@
 			);
 			dependencies = (
 			);
-			name = GovSpendr;
+			name = GovLedger;
 			packageProductDependencies = (
 			);
-			productName = GovSpendr;
-			productReference = 93F3006C2E8630D800059044 /* GovSpendr.app */;
+			productName = GovLedger;
+			productReference = 9343BEE42E89911B00E7687D /* GovLedger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93CD51522E7F6F88000B9AC9 /* GovSpendrTests */ = {
+		93CD51522E7F6F88000B9AC9 /* GovLedgerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93CD516A2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendrTests" */;
+			buildConfigurationList = 93CD516A2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedgerTests" */;
 			buildPhases = (
 				93CD514F2E7F6F88000B9AC9 /* Sources */,
 				93CD51502E7F6F88000B9AC9 /* Frameworks */,
@@ -543,16 +546,16 @@
 			dependencies = (
 				93CD51552E7F6F88000B9AC9 /* PBXTargetDependency */,
 			);
-			name = GovSpendrTests;
+			name = GovLedgerTests;
 			packageProductDependencies = (
 			);
-			productName = GovSpendrTests;
-			productReference = 93F3006D2E874AF100059044 /* GovSpendrTests.xctest */;
+			productName = GovLedgerTests;
+			productReference = 9343BEE52E89912200E7687D /* GovLedgerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93CD515C2E7F6F88000B9AC9 /* GovSpendrUITests */ = {
+		93CD515C2E7F6F88000B9AC9 /* GovLedgerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93CD516D2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendrUITests" */;
+			buildConfigurationList = 93CD516D2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedgerUITests" */;
 			buildPhases = (
 				93CD51592E7F6F88000B9AC9 /* Sources */,
 				93CD515A2E7F6F88000B9AC9 /* Frameworks */,
@@ -563,11 +566,11 @@
 			dependencies = (
 				93CD515F2E7F6F88000B9AC9 /* PBXTargetDependency */,
 			);
-			name = GovSpendrUITests;
+			name = GovLedgerUITests;
 			packageProductDependencies = (
 			);
-			productName = GovSpendrUITests;
-			productReference = 93F3006E2E874AF100059044 /* GovSpendrUITests.xctest */;
+			productName = GovLedgerUITests;
+			productReference = 9343BEE62E89912900E7687D /* GovLedgerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -593,7 +596,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93CD51412E7F6F87000B9AC9 /* Build configuration list for PBXProject "GovSpendr" */;
+			buildConfigurationList = 93CD51412E7F6F87000B9AC9 /* Build configuration list for PBXProject "GovLedger" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -607,9 +610,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93CD51452E7F6F87000B9AC9 /* GovSpendr */,
-				93CD51522E7F6F88000B9AC9 /* GovSpendrTests */,
-				93CD515C2E7F6F88000B9AC9 /* GovSpendrUITests */,
+				93CD51452E7F6F87000B9AC9 /* GovLedger */,
+				93CD51522E7F6F88000B9AC9 /* GovLedgerTests */,
+				93CD515C2E7F6F88000B9AC9 /* GovLedgerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -702,7 +705,7 @@
 				93CD51E12E7F6FA6000B9AC9 /* AwardDetailsResponse.swift in Sources */,
 				93CD51E22E7F6FA6000B9AC9 /* StateRecipientAwardsView.swift in Sources */,
 				93CD51E32E7F6FA6000B9AC9 /* AgencyListView.swift in Sources */,
-				93CD52822E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */,
+				93CD52822E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */,
 				93CD51E42E7F6FA6000B9AC9 /* DashboardViewModel.swift in Sources */,
 				93CD51E52E7F6FA6000B9AC9 /* AwardListView.swift in Sources */,
 				93CD51E62E7F6FA6000B9AC9 /* FederalAccountProgramActivityViewModel.swift in Sources */,
@@ -754,7 +757,7 @@
 				93CD52122E7F6FA6000B9AC9 /* NAICSSpendingResponse.swift in Sources */,
 				93CD52132E7F6FA6000B9AC9 /* Agency.swift in Sources */,
 				93CD52142E7F6FA6000B9AC9 /* AgencyDetailViewModel.swift in Sources */,
-				93CD52152E7F6FA6000B9AC9 /* GovSpendrTests.swift in Sources */,
+				93CD52152E7F6FA6000B9AC9 /* GovLedgerTests.swift in Sources */,
 				93CD52162E7F6FA6000B9AC9 /* StateSpendingResponse.swift in Sources */,
 				93CD52172E7F6FA6000B9AC9 /* FederalAccountResponse.swift in Sources */,
 				93CD52182E7F6FA6000B9AC9 /* SearchView.swift in Sources */,
@@ -769,7 +772,7 @@
 				93372B572E7FA71B0027935B /* AboutView.swift in Sources */,
 				93CD52212E7F6FA6000B9AC9 /* StateRecipientAwardsView.swift in Sources */,
 				93CD52222E7F6FA6000B9AC9 /* AgencyListView.swift in Sources */,
-				93CD52832E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */,
+				93CD52832E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */,
 				93CD52232E7F6FA6000B9AC9 /* DashboardViewModel.swift in Sources */,
 				93CD52242E7F6FA6000B9AC9 /* AwardListView.swift in Sources */,
 				93CD52252E7F6FA6000B9AC9 /* FederalAccountProgramActivityViewModel.swift in Sources */,
@@ -804,7 +807,7 @@
 				93CD52402E7F6FA6000B9AC9 /* AwardDetailViewModel.swift in Sources */,
 				93CD52412E7F6FA6000B9AC9 /* PSCData.swift in Sources */,
 				93CD52422E7F6FA6000B9AC9 /* SubAgencySpendingResponse.swift in Sources */,
-				93CD52432E7F6FA6000B9AC9 /* GovSpendrUITests.swift in Sources */,
+				93CD52432E7F6FA6000B9AC9 /* GovLedgerUITests.swift in Sources */,
 				93CD52442E7F6FA6000B9AC9 /* ExploreViewModel.swift in Sources */,
 				93CD52452E7F6FA6000B9AC9 /* FederalAccountProgramActivitiesView.swift in Sources */,
 				93CD52462E7F6FA6000B9AC9 /* SubawardResponse.swift in Sources */,
@@ -834,7 +837,7 @@
 				93CD525F2E7F6FA6000B9AC9 /* AwardDetailsResponse.swift in Sources */,
 				93CD52602E7F6FA6000B9AC9 /* StateRecipientAwardsView.swift in Sources */,
 				93CD52612E7F6FA6000B9AC9 /* AgencyListView.swift in Sources */,
-				93CD52852E7F84E1000B9AC9 /* GovSpendrApp.swift in Sources */,
+				93CD52852E7F84E1000B9AC9 /* GovLedgerApp.swift in Sources */,
 				93CD52622E7F6FA6000B9AC9 /* DashboardViewModel.swift in Sources */,
 				93CD52632E7F6FA6000B9AC9 /* AwardListView.swift in Sources */,
 				93CD52642E7F6FA6000B9AC9 /* FederalAccountProgramActivityViewModel.swift in Sources */,
@@ -843,7 +846,7 @@
 				93CD52672E7F6FA6000B9AC9 /* RecipientAwardsView.swift in Sources */,
 				93CD52692E7F6FA6000B9AC9 /* PSCChartData.swift in Sources */,
 				93CD526A2E7F6FA6000B9AC9 /* NavigationViewModel.swift in Sources */,
-				93CD526B2E7F6FA6000B9AC9 /* GovSpendrUITestsLaunchTests.swift in Sources */,
+				93CD526B2E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift in Sources */,
 				93CD526C2E7F6FA6000B9AC9 /* RecipientDetailView.swift in Sources */,
 				93CD526D2E7F6FA6000B9AC9 /* FilterViewModel.swift in Sources */,
 				93CD526E2E7F6FA6000B9AC9 /* CovidSpendingView.swift in Sources */,
@@ -866,12 +869,12 @@
 /* Begin PBXTargetDependency section */
 		93CD51552E7F6F88000B9AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93CD51452E7F6F87000B9AC9 /* GovSpendr */;
+			target = 93CD51452E7F6F87000B9AC9 /* GovLedger */;
 			targetProxy = 93CD51542E7F6F88000B9AC9 /* PBXContainerItemProxy */;
 		};
 		93CD515F2E7F6F88000B9AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93CD51452E7F6F87000B9AC9 /* GovSpendr */;
+			target = 93CD51452E7F6F87000B9AC9 /* GovLedger */;
 			targetProxy = 93CD515E2E7F6F88000B9AC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1020,7 +1023,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1050,7 +1053,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1068,12 +1071,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendrTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovSpendr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GovSpendr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GovLedger";
 			};
 			name = Debug;
 		};
@@ -1087,12 +1090,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendrTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovSpendr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GovSpendr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovLedger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GovLedger";
 			};
 			name = Release;
 		};
@@ -1104,12 +1107,12 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendrUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedgerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GovSpendr;
+				TEST_TARGET_NAME = GovLedger;
 			};
 			name = Debug;
 		};
@@ -1121,19 +1124,19 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendrUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedgerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GovSpendr;
+				TEST_TARGET_NAME = GovLedger;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93CD51412E7F6F87000B9AC9 /* Build configuration list for PBXProject "GovSpendr" */ = {
+		93CD51412E7F6F87000B9AC9 /* Build configuration list for PBXProject "GovLedger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93CD51652E7F6F88000B9AC9 /* Debug */,
@@ -1142,7 +1145,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93CD51672E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendr" */ = {
+		93CD51672E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93CD51682E7F6F88000B9AC9 /* Debug */,
@@ -1151,7 +1154,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93CD516A2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendrTests" */ = {
+		93CD516A2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedgerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93CD516B2E7F6F88000B9AC9 /* Debug */,
@@ -1160,7 +1163,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93CD516D2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovSpendrUITests" */ = {
+		93CD516D2E7F6F88000B9AC9 /* Build configuration list for PBXNativeTarget "GovLedgerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93CD516E2E7F6F88000B9AC9 /* Debug */,

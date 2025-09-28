@@ -1,6 +1,6 @@
 //
 //  Award.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

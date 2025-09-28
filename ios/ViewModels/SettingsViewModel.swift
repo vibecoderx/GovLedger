@@ -1,6 +1,6 @@
 //
 //  SettingsViewModel.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

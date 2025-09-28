@@ -1,6 +1,6 @@
 //
 //  StateRecipientsView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import SwiftUI

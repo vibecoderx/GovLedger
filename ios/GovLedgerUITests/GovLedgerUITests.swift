@@ -1,11 +1,11 @@
 //
-//  GovSpendrUITests.swift
-//  GovSpendrUITests
+//  GovLedgerUITests.swift
+//  GovLedgerUITests
 //
 
 import XCTest
 
-final class GovSpendrUITests: XCTestCase {
+final class GovLedgerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

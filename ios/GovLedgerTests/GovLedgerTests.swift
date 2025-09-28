@@ -1,12 +1,12 @@
 //
-//  GovSpendrTests.swift
-//  GovSpendrTests
+//  GovLedgerTests.swift
+//  GovLedgerTests
 //
 
 import Testing
-@testable import GovSpendr
+@testable import GovLedger
 
-struct GovSpendrTests {
+struct GovLedgerTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

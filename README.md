@@ -1,7 +1,7 @@
-# GovSpendr: Your Window into U.S. Government Spending
+# GovLedger: Your Window into U.S. Government Spending
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vibecoderx/GovSpendr/main/ios/GovSpendr/Assets.xcassets/AppIcon.appiconset/GovSpendr_eagle_cash.png" width="200">
+  <img src="https://raw.githubusercontent.com/vibecoderx/GovLedger/main/ios/GovLedger/Assets.xcassets/AppIcon.appiconset/GovLedger_eagle_cash.png" width="200">
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## Ever wonder where your tax dollars go? Now you can find out!
 
-GovSpendr is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovSpendr makes it easy to follow the money.
+GovLedger is a sleek, modern iOS application that brings the transparency of U.S. government spending right to your fingertips. Powered by the official [USASpending.gov](https://www.usaspending.gov) API, this app provides a dynamic and intuitive way to explore trillions of dollars in government spending. From top-level agency budgets to individual contracts, GovLedger makes it easy to follow the money.
 
 **NOTE**: This is not the official app for USASpending.gov.  This app and repo are in no way associated with USASpending.gov.
 
@@ -108,11 +108,11 @@ GovSpendr is a sleek, modern iOS application that brings the transparency of U.S
 
 ## Data Source
 
-All data in GovSpendr is sourced directly from the **USASpending.gov API**, the official data source for U.S. government spending. Our `APIService.swift` class handles all network requests to this API, ensuring that the data you see is accurate, up-to-date, and reliable.
+All data in GovLedger is sourced directly from the **USASpending.gov API**, the official data source for U.S. government spending. Our `APIService.swift` class handles all network requests to this API, ensuring that the data you see is accurate, up-to-date, and reliable.
 
 ## App Architecture
 
-GovSpendr is built using a modern and robust architecture, following the **Model-View-ViewModel (MVVM)** design pattern. This ensures a clean separation of concerns, making the codebase scalable, maintainable, and easy to understand.
+GovLedger is built using a modern and robust architecture, following the **Model-View-ViewModel (MVVM)** design pattern. This ensures a clean separation of concerns, making the codebase scalable, maintainable, and easy to understand.
 
 -   **Model**: The data layer of the application. These simple Swift structs are designed to be easily decodable from the JSON responses provided by the USASpending.gov API. You'll find these in the `Models` directory.
 -   **View**: The UI layer of the app, built entirely with **SwiftUI**. The views are designed to be reusable and reactive, providing a seamless user experience. All views are located in the `Views` directory.
@@ -123,7 +123,7 @@ GovSpendr is built using a modern and robust architecture, following the **Model
 The project is organized into a clear and logical folder structure to make navigation and development as easy as possible.
 
 ```
-GovSpendr/
+GovLedger/
 ├── Models/           # Data models (structs) that mirror the API responses
 ├── Views/            # SwiftUI views, organized by feature
 │   ├── Dashboard/
@@ -135,12 +135,12 @@ GovSpendr/
 ├── ViewModels/       # Classes that contain the business logic for each view
 ├── Services/         # Networking layer (APIService.swift)
 ├── Utilities/        # Helper files and extensions
-└── GovSpendrApp.swift # The main entry point of the app
+└── GovLedgerApp.swift # The main entry point of the app
 ```
 
 ## Getting Started
 
-To build and run this project, you'll need Xcode 15 or later. Clone the repository, open `GovSpendr.xcodeproj`, and run the app on the simulator or your device. No API keys are required to use the USASpending.gov API.
+To build and run this project, you'll need Xcode 15 or later. Clone the repository, open `GovLedger.xcodeproj`, and run the app on the simulator or your device. No API keys are required to use the USASpending.gov API.
 
 ## License
 

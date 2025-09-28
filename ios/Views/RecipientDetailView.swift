@@ -1,6 +1,6 @@
 //
 //  RecipientDetailView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 

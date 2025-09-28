@@ -1,6 +1,6 @@
 //
 //  CovidRecipientAwardsView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 

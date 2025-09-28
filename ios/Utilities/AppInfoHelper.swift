@@ -1,6 +1,6 @@
 //
 //  AppInfoHelper.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

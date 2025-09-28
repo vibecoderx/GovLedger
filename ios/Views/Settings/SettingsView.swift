@@ -1,6 +1,6 @@
 //
 //  SettingsView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 

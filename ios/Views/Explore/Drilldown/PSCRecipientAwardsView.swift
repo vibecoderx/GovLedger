@@ -1,6 +1,6 @@
 //
 //  PSCRecipientAwardsView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import SwiftUI

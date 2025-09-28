@@ -1,6 +1,6 @@
 //
 //  FederalAccountProgramActivityResponse.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

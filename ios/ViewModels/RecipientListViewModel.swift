@@ -1,6 +1,6 @@
 //
 //  RecipientListViewModel.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

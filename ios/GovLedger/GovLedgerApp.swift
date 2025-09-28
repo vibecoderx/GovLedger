@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct GovSpendrApp: App {
+struct GovLedgerApp: App {
     // These StateObjects are the single source of truth for shared data
     // across the entire app. They are created once here.
     @StateObject private var settingsViewModel = SettingsViewModel()

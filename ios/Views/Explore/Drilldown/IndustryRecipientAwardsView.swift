@@ -1,6 +1,6 @@
 //
 //  IndustryRecipientAwardsView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import SwiftUI

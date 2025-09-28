@@ -1,6 +1,6 @@
 //
 //  SubAgencySpendingResponse.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

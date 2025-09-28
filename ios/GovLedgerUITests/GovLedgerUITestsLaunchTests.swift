@@ -1,11 +1,11 @@
 //
-//  GovSpendrUITestsLaunchTests.swift
-//  GovSpendrUITests
+//  GovLedgerUITestsLaunchTests.swift
+//  GovLedgerUITests
 //
 
 import XCTest
 
-final class GovSpendrUITestsLaunchTests: XCTestCase {
+final class GovLedgerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

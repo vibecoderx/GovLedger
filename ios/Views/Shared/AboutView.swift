@@ -1,6 +1,6 @@
 //
 //  AboutView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct AboutView: View {
             Form {
                 Section {
                     VStack(alignment: .center, spacing: 20) {
-                        Image("GovSpendr_eagle_cash")
+                        Image("GovLedger_eagle_cash")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100, height: 100)

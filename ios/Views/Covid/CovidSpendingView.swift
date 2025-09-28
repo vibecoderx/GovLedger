@@ -1,6 +1,6 @@
 //
 //  CovidSpendingView.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import SwiftUI

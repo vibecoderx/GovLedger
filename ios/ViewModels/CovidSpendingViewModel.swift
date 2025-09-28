@@ -1,6 +1,6 @@
 //
 //  CovidSpendingViewModel.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation

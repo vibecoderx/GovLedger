@@ -1,6 +1,6 @@
 //
 //  PSCSpendingResponse.swift
-//  GovSpendr
+//  GovLedger
 //
 
 import Foundation
