@@ -209,9 +209,6 @@
 /* Begin PBXFileReference section */
 		93372B542E7FA5FF0027935B /* AppInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoHelper.swift; sourceTree = "<group>"; };
 		93372B562E7FA71B0027935B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		9343BEE72E89928C00E7687D /* GovLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovLedger.app; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedger.app"; sourceTree = "<absolute>"; };
-		9343BEE82E89928C00E7687D /* GovLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovLedgerTests.xctest; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedger.app/PlugIns/GovLedgerTests.xctest"; sourceTree = "<absolute>"; };
-		9343BEE92E89928C00E7687D /* GovLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovLedgerUITests.xctest; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedgerUITests-Runner.app/PlugIns/GovLedgerUITests.xctest"; sourceTree = "<absolute>"; };
 		93CD51732E7F6FA6000B9AC9 /* GovLedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerTests.swift; sourceTree = "<group>"; };
 		93CD51752E7F6FA6000B9AC9 /* GovLedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerUITests.swift; sourceTree = "<group>"; };
 		93CD51762E7F6FA6000B9AC9 /* GovLedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -274,6 +271,9 @@
 		93CD51BE2E7F6FA6000B9AC9 /* RecipientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientDetailView.swift; sourceTree = "<group>"; };
 		93CD527E2E7F84E1000B9AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CD527F2E7F84E1000B9AC9 /* GovLedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovLedgerApp.swift; sourceTree = "<group>"; };
+		93E3C6832EB6BE0F00833621 /* GovLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GovLedger.app; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedger.app"; sourceTree = "<absolute>"; };
+		93E3C6842EB6BE1300833621 /* GovLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovLedgerTests.xctest; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedger.app/PlugIns/GovLedgerTests.xctest"; sourceTree = "<absolute>"; };
+		93E3C6852EB6BE1300833621 /* GovLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GovLedgerUITests.xctest; path = "/Users/asaxena/workspace/apps/GovLedger/ios/build/Debug-iphoneos/GovLedgerUITests-Runner.app/PlugIns/GovLedgerUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,7 +527,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovLedger;
-			productReference = 9343BEE72E89928C00E7687D /* GovLedger.app */;
+			productReference = 93E3C6832EB6BE0F00833621 /* GovLedger.app */;
 			productType = "com.apple.product-type.application";
 		};
 		93CD51522E7F6F88000B9AC9 /* GovLedgerTests */ = {
@@ -547,7 +547,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovLedgerTests;
-			productReference = 9343BEE82E89928C00E7687D /* GovLedgerTests.xctest */;
+			productReference = 93E3C6842EB6BE1300833621 /* GovLedgerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		93CD515C2E7F6F88000B9AC9 /* GovLedgerUITests */ = {
@@ -567,7 +567,7 @@
 			packageProductDependencies = (
 			);
 			productName = GovLedgerUITests;
-			productReference = 9343BEE92E89928C00E7687D /* GovLedgerUITests.xctest */;
+			productReference = 93E3C6852EB6BE1300833621 /* GovLedgerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1020,7 +1020,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1050,7 +1050,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovLedger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.GovSpendr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
